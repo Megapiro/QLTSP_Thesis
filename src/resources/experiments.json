@@ -1,4 +1,5 @@
 {
+  "config_path": "SET PATH TO THE CONFIG FILE IN YOUR MACHINE"
   "embedding": "composite",
   "experiments": [
     {

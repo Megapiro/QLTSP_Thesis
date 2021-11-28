@@ -9,6 +9,9 @@ with open(exp_file) as jsonFile:
     json_exp = json.load(jsonFile)
     jsonFile.close()
 
+def get_config_path():
+    return json_exp['config_path']
+
 
 # embedding can take one of the following strings, representing each a different embedding:
 # "auto" -> AutoEmbeddingComposite
