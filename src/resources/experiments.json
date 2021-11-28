@@ -1,0 +1,165 @@
+{
+  "embedding": "composite",
+  "experiments": [
+    {
+      "name": "First Eight Nodes",
+      "label": "First 8 Nodes Original Dataset",
+      "num_nodes": 8,
+      "norm_factors": [1, 0.0005, 0.018],
+      "sa_qpu": [
+        {
+          "num_reads_SA": 10000,
+          "chain_strength_SA": 1.0
+        },
+        {
+          "num_reads_QPU": 10000,
+          "chain_strength_QPU": 2.0
+        }
+      ]
+    },
+    {
+      "name": "First Ten Nodes",
+      "label": "First 10 Nodes Original Dataset",
+      "num_nodes": 10,
+      "norm_factors": [1, 0.00018, 0.0098],
+      "sa_qpu": [
+        {
+          "num_reads_SA": 10000,
+          "chain_strength_SA": 1.0
+        },
+        {
+          "num_reads_QPU": 10000,
+          "chain_strength_QPU": 2.0
+        }
+      ]
+    },
+    {
+      "name": "First Twelve Nodes",
+      "label": "First 12 Nodes Original Dataset",
+      "num_nodes": 12,
+      "norm_factors": [1, 0.00018, 0.0098],
+      "sa_qpu": [
+        {
+          "num_reads_SA": 10000,
+          "chain_strength_SA": 1.0
+        },
+        {
+          "num_reads_QPU": 10000,
+          "chain_strength_QPU": 2.0
+        }
+      ]
+    },
+    {
+      "name": "First Fourteen Nodes",
+      "label": "First 14 Nodes Original Dataset",
+      "num_nodes": 14,
+      "norm_factors": [1, 0.00018, 0.018],
+      "sa_qpu": [
+        {
+          "num_reads_SA": 10000,
+          "chain_strength_SA": 1.0
+        },
+        {
+          "num_reads_QPU": 10000,
+          "chain_strength_QPU": 2.0
+        }
+      ]
+    },
+    {
+      "name": "First Sixteen Nodes",
+      "label": "First 16 Nodes Original Dataset",
+      "num_nodes": 16,
+      "norm_factors": [1, 0.00018, 0.018],
+      "sa_qpu": [
+        {
+          "num_reads_SA": 10000,
+          "chain_strength_SA": 1.0
+        },
+        {
+          "num_reads_QPU": 1000,
+          "chain_strength_QPU": 2.0
+        }
+      ]
+    },
+    {
+      "name": "First ThirtyTwo Nodes",
+      "label": "First 32 Nodes Original Dataset",
+      "num_nodes": 32,
+      "norm_factors": [1, 0.0005, 0.1],
+      "sa_qpu": [
+        {
+          "num_reads_SA": 5000,
+          "chain_strength_SA": 1.0
+        },
+        {
+          "num_reads_QPU": 5000,
+          "chain_strength_QPU": 2.0
+        }
+      ]
+    },
+    {
+      "name": "First SixtyFour Nodes",
+      "label": "First 64 Nodes Original Dataset",
+      "num_nodes": 64,
+      "norm_factors": [1, 0.00018, 0.018],
+      "sa_qpu": [
+        {
+          "num_reads_SA": 5000,
+          "chain_strength_SA": 1.0
+        },
+        {
+          "num_reads_QPU": 5000,
+          "chain_strength_QPU": 2.0
+        }
+      ]
+    },
+    {
+      "name": "First NinetySix Nodes",
+      "label": "First 96 Nodes Original Dataset",
+      "num_nodes": 96,
+      "norm_factors": [1, 0.00018, 0.018],
+      "sa_qpu": [
+        {
+          "num_reads_SA": 1000,
+          "chain_strength_SA": 1.0
+        },
+        {
+          "num_reads_QPU": 1000,
+          "chain_strength_QPU": 2.0
+        }
+      ]
+    },
+    {
+      "name": "First HundredTwelve Nodes",
+      "label": "First 112 Nodes Original Dataset",
+      "num_nodes": 112,
+      "norm_factors": [1, 0.00018, 0.018],
+      "sa_qpu": [
+        {
+          "num_reads_SA": 1000,
+          "chain_strength_SA": 1.0
+        },
+        {
+          "num_reads_QPU": 1000,
+          "chain_strength_QPU": 2.0
+        }
+      ]
+    },
+    {
+      "name": "First HundredTwenty Nodes",
+      "label": "First 120 Nodes Original Dataset",
+      "num_nodes": 120,
+      "norm_factors": [1, 0.00018, 0.018],
+      "sa_qpu": [
+        {
+          "num_reads_SA": 1000,
+          "chain_strength_SA": 1.0
+        },
+        {
+          "num_reads_QPU": 1000,
+          "chain_strength_QPU": 2.0
+        }
+      ]
+    }
+  ]
+}
